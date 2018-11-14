@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.TestCases.E2MAppTestCases">
+        <methods>
+          <include name="homePageVerifyTest"/>
+          <include name="scheduleTracksPlatformsTest"/>
+          <include name="videoExistUploadTest"/>
+          <include name="updateMyProfileTest"/>
+          <include name="homeTest"/>
+          <include name="socialWallTest"/>
+          <include name="refreshDataTest"/>
+          <include name="setUp"/>
+          <include name="eventQATest"/>
+          <include name="sponsorsNameTest"/>
+          <include name="oneToOneMsgTest"/>
+          <include name="floorMapDetailsTest"/>
+          <include name="loginToAccountTest"/>
+          <include name="addNoteTest"/>
+          <include name="dropdownPollsTest"/>
+          <include name="exhibitorTypeTest"/>
+          <include name="leaderBoardDetailsTest"/>
+          <include name="scheduleMyAgendaTabTest"/>
+          <include name="useFulInfoTest"/>
+          <include name="wayFinderTest"/>
+          <include name="photoWallTest"/>
+          <include name="sponsorsTypeTest"/>
+          <include name="multiplePollsTest"/>
+          <include name="installAppTest"/>
+          <include name="bookmarksTest"/>
+          <include name="locationAndTimingTest"/>
+          <include name="videoRecordUploadTest"/>
+          <include name="logoutTest"/>
+          <include name="freeTextPollsTest"/>
+          <include name="attendeeDetailsTest"/>
+          <include name="speakerDetailsTest"/>
+          <include name="resourcesDataTest"/>
+          <include name="exhibitorNameTest"/>
+          <include name="uninstallAppTest"/>
+          <include name="mailReport"/>
+          <include name="scheduleTimeTest"/>
+          <include name="scheduleTracksLiveTest"/>
+          <include name="tearDown"/>
+          <include name="aboutAppTest"/>
+          <include name="singlePollsTest"/>
+        </methods>
+      </class> <!-- com.TestCases.E2MAppTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
